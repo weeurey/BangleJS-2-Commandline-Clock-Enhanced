@@ -1,15 +1,22 @@
 # Cli Clock
 
-A retro VT100 command line style clock made by the Espruino and enhanced by me for the Bangle JS 2!
-
-## Changes made
-* Made the time line font bigger and changed margin spacing to minimize any wasted screen space
+A retro VT100 command line style clock
 
 ## Screenshots
-### Normal face
+### Normall face
 
-![](Screengrab.png)
+![](cli_clock.jpg)
+
+### With BTN1 pressed
+
+* Successive presses of BTN1 will show Heart rate, Steps, id, FW version, battery %, memory %
+
+![](cli_clock_with_id.jpg)
+
+* BTN2 shows a functional menu that enables the Heart rate monitor to be turned on / off using BTN1
+
+Once the heart rate monitor is ON, you can cycle through the displays to show the heart rate.
 
 ## Future Enhancements
-* Remove the extra 'bumf' like the heart rate stuff, batter info, ect. No easy way to control them and kinda unnecessary 
-* Maybe add some extra lines showing more data? Maybe a "> Playing *MusicPlayingHere*"
+* Ability to turn on the GPS and show, lat long, grid ref
+* Maybe a simple stopwatch capability
